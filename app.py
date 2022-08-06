@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from model import SensorModel
-from db import db_create_sensor, db_list_sensors, db_retrieve_sensor, db_update_sensor, \
-    db_delete_sensor
+from db import db_create_sensor, db_list_sensors
 
 app = Flask(__name__)
 
